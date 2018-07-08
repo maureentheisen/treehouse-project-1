@@ -62,10 +62,7 @@ function printQuote(){
     }
 
     message += '</p>';
-    return message;
+    document.getElementById('quote-box').innerHTML = message;
 }
 
 //put the quotation into the quote-box div
-
-
-document.getElementById('quote-box').innerHTML = printQuote();
